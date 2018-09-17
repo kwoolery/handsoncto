@@ -3,15 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://handsoncto.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/another-fixed-page/</loc>
+    <loc>http://handsoncto.com/2018/09/17/first-post/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://handsoncto.com/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21,7 +19,8 @@
   </url>
   
   <url>
-    <loc>http://handsoncto.com/fixed/</loc>
+    <loc>http://handsoncto.com/post/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

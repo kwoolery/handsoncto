@@ -1,46 +1,166 @@
-# Lanyon for Hugo
+# Hyde
 
-[Lanyon](http://github.com/poole/lanyon) is a great theme for [Jekyll](http://jekyllrb.com). This is a port of that theme, but to another static site generator, [Hugo](http://github.com/spf13/hugo). I'm aiming to get the same look and interactions as the original Lanyon.
+Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
+It pairs a prominent sidebar with uncomplicated content.
 
-Hugo and Jekyll are similar in that, out of the box, you can't make a presentable website out of them. You need some kind of theme first, or otherwise your site will be *really* bare-bones. If you're a designer, you might be comfortable doing that yourself. If you aren't, Jekyll has a thriving ecosystem of themes waiting for you. Hugo, being younger than Jekyll, does not. Lanyon-Hugo attempts to remedy that problem.
+![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
-Lanyon-Hugo is a theme designed for blogging. While Hugo is flexible enough to turn almost any static content into a website, this theme is focused on blog-like use cases. Lanyon-Hugo retains the CSS, and therefore the look and feel, of the parent theme, Lanyon. This includes a sidebar that is hidden by default, and can be toggled with a button (implemented entirely in CSS). The sidebar gives some convenient navigation links, but when it is hidden, Lanyon-Hugo, just like Lanyon, is discreet and puts your content front and center.
 
-## Usage
+## Contents
 
-To begin authoring content, all you have to do is clone this repository and start writing Markdown files in [`content/post`](content/post). Front matter for Hugo can be written in JSON, YAML or TOML. I am using JSON out of preference, but it's your content - use whatever language you want. Two example posts are already provided (lifted from the parent Lanyon, with links fixed for Hugo) as an example of the front matter you need.
+- [Installation](#installation)
+- [Options](#options)
+  - [Sidebar menu](#sidebar-menu)
+  - [Sticky sidebar content](#sticky-sidebar-content)
+  - [Themes](#themes)
+  - [Reverse layout](#reverse-layout)
+  - [Disqus](#disqus)
+  - [Google Analytics](#google-analytics)
+- [Author](#author)
+- [Ported by](#ported-by)
+- [License](#license)
 
-Note for Jekyll users: Jekyll parses the date out of your post's title, but Hugo does not. You must specify a date in the front matter. I specify the permalinks to look like Jekyll's in `config.json`, so if you set the date correctly, the permalinks will also look correct.
 
-Hugo's universal config file is [`config.json`](config.json) (or YAML, or TOML). You can change the base URL of your site, the title, and the tagline from this file. The link to your GitHub repository (for whatever the site represents, say a dev blog, or a personal GitHub Page) can also be changed here. If you are familiar with Hugo, you already know that you can add more parameters to the `params` object to introduce more variables.
+## Installation
 
-### Fixed Pages
+To install Hyde as your default theme, first install this repository in the `themes/` directory:
 
-The original Lanyon had a layout for "pages", fixed content that didn't have a date. Lanyon-Hugo retains this concept, and refers to these pages as "fixed" (that's the content type, if you're familiar with Hugo concepts). Fixed pages will not display a date, only a title, and they will not be listed on the homepage of your site. Pages such as About (an example `about.md` has been lifted from the parent Lanyon) should generally be fixed.
+    $ cd themes/
+    $ git clone https://github.com/spf13/hyde.git
 
-### Sidebar Links
+Second, specify `hyde` as your default theme in the `config.toml` file. Just add the line
 
-To indicate that a given piece of content should be linked in the sidebar, add a key `sidebar` to the front matter, and set it to `true`. See [`about.md`](content/fixed/about.md) for an example of this. You can pin content to the sidebar regardless of whether it is a post, or if it is fixed.
+    theme = "hyde"
 
-Sidebar content is ordered by weight, specified in the front matter. The lowest weight goes to the top and the greatest weight goes to the bottom. I've included an extra example file, [`altab.md`](content/fixed/altab.md), to demonstrate this feature. If no weight is specified in the front matter, then the weight is zero (this behavior probably comes from the zero-value of integers in Go). You can set negative weights to exploit this feature. Note that the weight must be wrapped in quotes (ie a string). Looks like Hugo converts it to an integer internally.
+at the top of the file.
 
-Note for Jekyll users: In the original Lanyon, any content that had the `page` layout would be added to the sidebar. However, in Lanyon-Hugo, content with the `fixed` type will not be added to the sidebar automatically. You must specify the `sidebar` flag in the front matter.
 
-Lanyon-Hugo generates a post list at `/post/`. By default, Lanyon doesn't actually have a post list, so there is no link for it anywhere in the theme. In my opinion, there are two sensible places to put it: in between the pagination buttons, and on the sidebar. You could conceivably do both. I've added a sidebar entry for it. If you want to add a button between the pagination buttons, take a look at my Lanyon fork; it has an example of how to do such a thing.
+## Options
 
-### Look and Feel
+Hyde includes some customizable options, typically applied via classes on the `<body>` element.
 
-The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here. You can find these tweaks in the [upstream README](https://github.com/poole/lanyon#themes).
 
-You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, which this theme will use. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting). You can also generate CSS for other pygments themes like so:
+### Sidebar menu
 
-```bash
-pygmentize -f html -S colorful -a .highlight > static/css/syntax.css
+Create a list of nav links in the sidebar by assigning "menu=main" in the front matter.
+
+
+### Sticky sidebar content
+
+By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disabled this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
+
+```html
+<!-- Default sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    ...
+  </div>
+</div>
+
+<!-- Modified sidebar -->
+<div class="sidebar">
+  <div class="container">
+    ...
+  </div>
+</div>
 ```
 
-## Contributing
 
-If you're interested in hacking on this theme, please check out [CONTRIBUTING](CONTRIBUTING.md).
+### Themes
+
+Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+
+![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
+
+There are eight themes available at this time.
+
+![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
+
+To use a theme, add the `themeColor` variable under `params`, like so:
+
+**TOML**
+```toml
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-09"
+```
+
+**YAML**
+```yaml
+theme: "hyde"
+
+params:
+  themeColor: "theme-base-09"
+```
+
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+
+### Reverse layout
+
+![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
+
+To reverse page orientation, add the `layoutReverse` variable under `params`, like so:
+
+**TOML**
+```toml
+theme = "hyde"
+
+[params]
+  layoutReverse = true
+```
+
+**YAML**
+```yaml
+theme: "hyde"
+
+params:
+  layoutReverse: true
+```
+
+### Disqus
+
+You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable `disqusShortname` to your config file.
+
+**TOML**
+```toml
+disqusShortname = "spf13"
+```
+
+**YAML**
+```yaml
+disqusShortname : spf13
+```
+
+> **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
+
+
+## Google Analytics
+
+Google Analytics can be enabled by assigning your tracking code to the `googleAnalytics` variable in the config file:
+
+**TOML**
+```toml
+googleAnalytics = "Your tracking code"
+```
+
+**YAML**
+```yaml
+googleAnalytics: Your tracking code
+```
+
+## Author
+**Mark Otto**
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
+
+## Ported By
+**Steve Francia**
+- <https://github.com/spf13>
+- <https://twitter.com/spf13>
 
 ## License
-MIT, see [LICENSE.md](LICENSE.md).
+
+Open sourced under the [MIT license](LICENSE.md).
+
+<3

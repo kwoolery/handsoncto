@@ -5,12 +5,24 @@
     <link>http://handsoncto.com/</link>
     <language>en-us</language>
     <author>Kevin Woolery</author>
-    <rights>(C) 1</rights>
-    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
+    <rights>(C) 2018</rights>
+    <updated>2018-09-17 00:00:00 &#43;0000 UTC</updated>
 
     
       
-    
+        <item>
+          <title>First Post</title>
+          <link>http://handsoncto.com/2018/09/17/first-post/</link>
+          <pubDate>Mon, 17 Sep 2018 00:00:00 UTC</pubDate>
+          <author>Kevin Woolery</author>
+          <guid>http://handsoncto.com/2018/09/17/first-post/</guid>
+          <description>
+
+&lt;h2 id=&#34;first-post-with-hyde&#34;&gt;First Post with Hyde&lt;/h2&gt;
+
+&lt;p&gt;This is the first post&lt;/p&gt;
+</description>
+        </item>
       
     
 

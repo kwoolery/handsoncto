@@ -1,16 +1,17 @@
-name = "Lanyon"
+name = "Hyde"
 license = "MIT"
-licenselink = "https://github.com/tummychow/lanyon-hugo/blob/master/LICENSE.md"
-description = "Lanyon-Hugo is a theme designed for blogging."
-homepage = "https://github.com/tummychow/lanyon-hugo"
-tags = ["blog",]
-features = ["blog", ]
-min_version = 0.14
+licenselink = "https://github.com/spf13/hyde/blob/master/LICENSE.md"
+description = "An elegant open source and mobile first theme"
+tags = ["blog", "company"]
+features = ["blog", "themes", "disqus"]
+min_version = 0.21
 
 [author]
-    name = "tummychow"
+    name = "spf13"
+    homepage = "http://spf13.com"
 
+# If Porting existing theme
 [original]
     author =  "mdo"
-    homepage = "https://github.com/poole/lanyon"
-    repo = "https://github.com/poole/lanyon"
+    homepage = "http://markdotto.com/"
+    repo = "https://www.github.com/mdo/hyde"
