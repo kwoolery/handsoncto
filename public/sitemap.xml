@@ -48,6 +48,10 @@
   </url>
   
   <url>
+    <loc>http://handsoncto.com/1/01/01/something/</loc>
+  </url>
+  
+  <url>
     <loc>http://handsoncto.com/tags/</loc>
     <priority>0</priority>
   </url>
