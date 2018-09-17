@@ -153,8 +153,6 @@
           <guid>http://handsoncto.com/2018/09/17/second-post/</guid>
           <description>
 
-&lt;p&gt;lll&lt;/p&gt;
-
 &lt;h1 id=&#34;this-is-an-automated-push-to-s3-from-second-post&#34;&gt;This is an automated push to S3 from second post&lt;/h1&gt;
 
 &lt;div class=&#34;message&#34;&gt;
@@ -273,6 +271,22 @@
 &lt;hr /&gt;
 
 &lt;p&gt;Want to see something else added? &lt;a href=&#34;https://github.com/poole/poole/issues/new&#34;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Testing something</title>
+          <link>http://handsoncto.com/2018/09/17/testing-something/</link>
+          <pubDate>Mon, 17 Sep 2018 00:00:00 UTC</pubDate>
+          <author>Kevin Woolery</author>
+          <guid>http://handsoncto.com/2018/09/17/testing-something/</guid>
+          <description>
+
+&lt;h2 id=&#34;another-test&#34;&gt;Another test&lt;/h2&gt;
+
+&lt;p&gt;this is the test I&amp;rsquo;m using to see if git commit works&lt;/p&gt;
 </description>
         </item>
       

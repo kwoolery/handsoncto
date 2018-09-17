@@ -26,9 +26,17 @@
       <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>http://handsoncto.com/2018/09/17/second-post/</guid>
-      <description>lll
-This is an automated push to S3 from second post This is a message from second post  Markdown header HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network.
+      <description>This is an automated push to S3 from second post This is a message from second post  Markdown header HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network.
  To bold text, use &amp;lt;strong&amp;gt;. To italicize text, use &amp;lt;em&amp;gt;. Abbreviations, like HTML should use &amp;lt;abbr&amp;gt;, with an optional title attribute for the full phrase. Citations, like &amp;mdash; Mark otto, should use &amp;lt;cite&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Testing something</title>
+      <link>http://handsoncto.com/2018/09/17/testing-something/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://handsoncto.com/2018/09/17/testing-something/</guid>
+      <description>Another test this is the test I&amp;rsquo;m using to see if git commit works</description>
     </item>
     
   </channel>
