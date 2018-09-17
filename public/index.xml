@@ -146,11 +146,11 @@
     
       
         <item>
-          <title>First Post</title>
-          <link>http://handsoncto.com/2018/09/17/first-post/</link>
+          <title>Second Post</title>
+          <link>http://handsoncto.com/2018/09/17/second-post/</link>
           <pubDate>Mon, 17 Sep 2018 00:00:00 UTC</pubDate>
           <author>Kevin Woolery</author>
-          <guid>http://handsoncto.com/2018/09/17/first-post/</guid>
+          <guid>http://handsoncto.com/2018/09/17/second-post/</guid>
           <description>
 
 &lt;h1 id=&#34;this-is-an-automated-push-to-s3&#34;&gt;This is an automated push to S3&lt;/h1&gt;
