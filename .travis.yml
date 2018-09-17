@@ -1,10 +1,3 @@
-env:
-  global:
-    AWS_ACCESS_KEY_ID: AKIAITQ5CJPRVKWYK5TA
-    AWS_SECRET_ACCESS_KEY:
-      secure: VpttIflAqR+jqGpVg8Dsd4yG0OmOEdF3SQu0UTIV/F4VuA351A7POBygS8kLMAhZiTgRFDvrA7By6tthBmg1PBnKfvuQlEMPNYSbFiq9lWZ79km8xZHvjyfWDZ1rm6+alvFTRaix5reBf3upC5e3BpiRU9GIXD59jce9ZyqeyCJ3fEGfo+Dnpm44wXSiyef3eDmqIqcyyheyBNiqNpcKHcN/G81vHvnPgJryHzGstPmTJWBfW7GVhqpJzEO6cXWLIc9EKuvNxfdl0nD+OzqPKh3sTrwyzml342cduAYlecPB7uscaJeNhg0crY9Lu6ALHj4jnDvV/0Cz5wO2YmYm14m9PslkXE4YnS/jWHlCxZl/jgB5IrQsdOI1ZrDDWdYSbYZw9ok2hT+2K8i5hASonAir/u0/pdiTD3Q2CsAFxillNAdlnTl+N+fhoNWkbIxQ1gkMZqvMUuDOMofgBfQhRmAkj44f/k16bllaF3B7n83uvQAV9f2RSjwh+bATsEdHsOFyCrMl+0Ny9iysrX8KANVZsti6ehCNLfKgx6OJ63w0hi9SOfhu7Qe1/5vVeoKBhc8Jf3BY4HT3M6IWbLkmd67vImqED7eAM/IZgVxR58eR9NWStPrTn3dU9CloePMqF7kooedP6D3KQDFBNy2UHZId3GMlah9tYNbrJUcY5eU=
-   
-
 notifications:
   email:
     - kwoolery@gmail.com
