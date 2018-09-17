@@ -15,12 +15,12 @@
     "pygmentsuseclasses": true,
 
     "params": {
-        "Title": "Lanyon",
-        "Tagline": "A Jekyll theme",
-        "Author": "Mark Otto",
-        "DateForm": "Jan 2 2006",
+        "Title": "Hands-On CTO",
+        "Tagline": "Tales from the Trenches",
+        "Author": "Kevin Woolery",
+        "DateForm": "Sep 17, 2018",
         "Github": {
-            "Url": "http://github.com/tummychow/lanyon-hugo",
+            "Url": "http://github.com/kwoolery/handsoncto",
             "Head": "master"
         }
     }
