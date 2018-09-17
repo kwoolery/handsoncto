@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost/about/</loc>
+    <loc>http://handsoncto.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://localhost/another-fixed-page/</loc>
+    <loc>http://handsoncto.com/another-fixed-page/</loc>
   </url>
   
   <url>
-    <loc>http://localhost/2018/09/17/first-post/</loc>
+    <loc>http://handsoncto.com/2018/09/17/first-post/</loc>
     <lastmod>2018-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost/fixed/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost/post/</loc>
+    <loc>http://handsoncto.com/</loc>
     <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost/tags/</loc>
+    <loc>http://handsoncto.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://handsoncto.com/fixed/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://handsoncto.com/post/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://handsoncto.com/tags/</loc>
     <priority>0</priority>
   </url>
   

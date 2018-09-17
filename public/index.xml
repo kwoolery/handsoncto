@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> </title>
-    <link>http://localhost/</link>
+    <link>http://handsoncto.com/</link>
     <language>en-us</language>
     <author>Mark Otto</author>
     <rights>(C) 2018</rights>
@@ -16,10 +16,10 @@
       
         <item>
           <title>First Post</title>
-          <link>http://localhost/2018/09/17/first-post/</link>
+          <link>http://handsoncto.com/2018/09/17/first-post/</link>
           <pubDate>Mon, 17 Sep 2018 00:00:00 UTC</pubDate>
           <author>Mark Otto</author>
-          <guid>http://localhost/2018/09/17/first-post/</guid>
+          <guid>http://handsoncto.com/2018/09/17/first-post/</guid>
           <description>
 
 &lt;div class=&#34;message&#34;&gt;
