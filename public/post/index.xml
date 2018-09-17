@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>6th Post</title>
+      <link>http://handsoncto.com/2018/09/17/6th-post/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://handsoncto.com/2018/09/17/6th-post/</guid>
+      <description>Sixth Post Something goes here</description>
+    </item>
+    
+    <item>
+      <title>7th</title>
+      <link>http://handsoncto.com/2018/09/17/7th/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://handsoncto.com/2018/09/17/7th/</guid>
+      <description> 7th </description>
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>http://handsoncto.com/2018/09/17/first-post/</link>
       <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
@@ -46,6 +64,15 @@
       
       <guid>http://handsoncto.com/2018/09/17/git-should-work/</guid>
       <description> Git Should Work </description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://handsoncto.com/2018/09/17/test/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://handsoncto.com/2018/09/17/test/</guid>
+      <description>One more</description>
     </item>
     
     <item>
