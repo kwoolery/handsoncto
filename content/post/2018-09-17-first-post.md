@@ -3,6 +3,8 @@
     "date": "2018-09-17"
 }
 
+# This is an automated push to S3
+
 <div class="message">
 	This is a message
 </div>
