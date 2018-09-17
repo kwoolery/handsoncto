@@ -22,6 +22,8 @@
           <guid>http://handsoncto.com/2018/09/17/first-post/</guid>
           <description>
 
+&lt;h1 id=&#34;this-is-an-automated-push-to-s3&#34;&gt;This is an automated push to S3&lt;/h1&gt;
+
 &lt;div class=&#34;message&#34;&gt;
     This is a message
 &lt;/div&gt;
