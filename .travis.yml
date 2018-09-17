@@ -4,11 +4,9 @@ notifications:
 
 sudo: true
 dist: trusty
-language:
-  python:
-  - '3.6'
+language: generic
 install:
-- sudo pip install -r requirements.txt
+- sudo pip -q install -r requirements.txt
 
 deploy:
   provider: script
