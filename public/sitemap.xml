@@ -11,43 +11,7 @@
   </url>
   
   <url>
-    <loc>http://handsoncto.com/2018/09/17/6th-post/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/2018/09/17/7th/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/2018/09/17/first-post/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/2018/09/17/second-post/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/2018/09/17/testing-something/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/2018/09/17/git-should-work/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/2018/09/17/test/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://handsoncto.com/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,16 +23,6 @@
   <url>
     <loc>http://handsoncto.com/fixed/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/post/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://handsoncto.com/1/01/01/something/</loc>
   </url>
   
   <url>
