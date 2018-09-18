@@ -1,0 +1,54 @@
+baseURL = "http://handsoncto.com/"
+languageCode = "en-us"
+title = "Hands-On CTO"
+theme = "hugo-lamp"
+googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
+
+[params]
+  subtitle = "Light responsive AMP theme"
+  author = "Huy Nguyen"
+  #logo = "/img/avatar.jpg"
+  logo = "/img/kevin_woolery.png"
+  description = "A light responsive Hugo AMP theme for blogger"
+  paginate = 10
+
+  # Publisher
+  ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
+  adsenseSlot = "XXX"                   # Required slot to display ads
+  adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
+
+  # SEO configs
+  seotitle = "Hugo Blog Title (SEO Version)"
+  googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+  msValidate = "bing_site_verification_code"                  # Bing Webmaster
+
+  # Social networks
+  email = "kevin@truvu.ai"
+  github = "kwoolery"
+  twitter = "kevincwoolery"
+  linkedin = "kevinwoolery73"
+  facebook = "kevin.woolery.1"
+  google = "107882547066036093045"
+  instagram = "kwoolery"
+  youtube = "kwoolery"
+  #dribbble = "dribbble_username"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Hugo"
+  weight = 1
+  identifier = "hugo"
+  url = "/hugo/"
+[[menu.main]]
+  name = "AMP Project"
+  weight = 2
+  identifier = "amp"
+  url = "/amp/"
+[[menu.main]]
+  name = "Tags"
+  weight = 3
+  identifier = "tags"
+  url = "/tags/"
