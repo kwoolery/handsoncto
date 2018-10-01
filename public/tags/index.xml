@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Hands-On CTO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 01 Oct 2018 12:48:15 -0700</lastBuildDate>
     
 	<atom:link href="http://handsoncto.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>http://handsoncto.com/tags/about/</link>
+      <pubDate>Mon, 01 Oct 2018 12:48:15 -0700</pubDate>
+      
+      <guid>http://handsoncto.com/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Background</title>
+      <link>http://handsoncto.com/tags/background/</link>
+      <pubDate>Mon, 01 Oct 2018 12:48:15 -0700</pubDate>
+      
+      <guid>http://handsoncto.com/tags/background/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

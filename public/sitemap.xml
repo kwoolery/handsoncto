@@ -3,17 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://handsoncto.com/post/2018-10-01-about-me/</loc>
+    <lastmod>2018-10-01T12:48:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://handsoncto.com/tags/about/</loc>
+    <lastmod>2018-10-01T12:48:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://handsoncto.com/tags/background/</loc>
+    <lastmod>2018-10-01T12:48:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://handsoncto.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://handsoncto.com/</loc>
+    <lastmod>2018-10-01T12:48:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://handsoncto.com/post/</loc>
+    <lastmod>2018-10-01T12:48:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://handsoncto.com/tags/</loc>
+    <lastmod>2018-10-01T12:48:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
