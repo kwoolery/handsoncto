@@ -55,4 +55,4 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   name = "Truvu AI"
   weight = 4
   identifier = "truvu"
-  url = "http://truvu.ai/"
+  url = "http://www.truvu.ai/"
