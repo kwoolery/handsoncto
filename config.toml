@@ -5,7 +5,7 @@ theme = "hugo-lamp"
 googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
 
 [params]
-  subtitle = "Hands-On CTO"
+  subtitle = ""
   author = "Kevin Woolery"
   logo = "/img/kevin_woolery.png"
   description = ""
