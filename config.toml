@@ -12,7 +12,7 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   paginate = 10
 
   # Publisher
-  ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
+  adsensePublisher = "ca-pub-9686800041680019"    # Required if you want to include Google Adsense
   adsenseSlot = "XXX"                   # Required slot to display ads
   adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
 
