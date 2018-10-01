@@ -7,7 +7,7 @@ googleAnalytics = "UA-126750607-1"          # Google Analytics UA number
 [params]
   subtitle = ""
   author = "Kevin Woolery"
-  logo = "/img/kevin_woolery.png"
+  logo = "/img/kevin_jetpack.png"
   description = ""
   paginate = 10
 
@@ -45,14 +45,17 @@ googleAnalytics = "UA-126750607-1"          # Google Analytics UA number
   name = "From Zero to Full Stack Book"
   weight = 2
   identifier = "fromzerotofullstack"
+  hrefTargetBlank = true
   url = "https://leanpub.com/fromzerotofullstackwithgoandreactjs"
 [[menu.main]]
   name = "Jetpack"
   weight = 3
   identifier = "jetpack"
+  hrefTargetBlank = true
   url = "http://www.jetpack.net/"
 [[menu.main]]
   name = "Truvu AI"
   weight = 4
   identifier = "truvu"
+  hrefTargetBlank = true
   url = "http://www.truvu.ai/"
