@@ -2,7 +2,7 @@ baseURL = "http://handsoncto.com/"
 languageCode = "en-us"
 title = "Hands-On CTO"
 theme = "hugo-lamp"
-googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
+googleAnalytics = "UA-126750607-1"          # Google Analytics UA number
 
 [params]
   subtitle = ""
