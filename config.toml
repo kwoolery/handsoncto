@@ -40,7 +40,7 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   name = "About Me"
   weight = 1
   identifier = "about"
-  url = "/about/"
+  url = "/about.html"
 [[menu.main]]
   name = "From Zero to Full Stack Book"
   weight = 2
