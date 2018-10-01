@@ -5,11 +5,10 @@ theme = "hugo-lamp"
 googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
 
 [params]
-  subtitle = "Light responsive AMP theme"
-  author = "Huy Nguyen"
-  #logo = "/img/avatar.jpg"
+  subtitle = "Hands-On CTO"
+  author = "Kevin Woolery"
   logo = "/img/kevin_woolery.png"
-  description = "A light responsive Hugo AMP theme for blogger"
+  description = ""
   paginate = 10
 
   # Publisher
@@ -18,7 +17,7 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
 
   # SEO configs
-  seotitle = "Hugo Blog Title (SEO Version)"
+  seotitle = "Hands-On CTO"
   googleSiteVerification = "google_site_verification_code"    # Google Webmaster
   msValidate = "bing_site_verification_code"                  # Bing Webmaster
 
@@ -38,17 +37,22 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   category = "categories"
 
 [[menu.main]]
-  name = "Hugo"
+  name = "About Me"
   weight = 1
-  identifier = "hugo"
-  url = "/hugo/"
+  identifier = "about"
+  url = "/about/"
 [[menu.main]]
-  name = "AMP Project"
+  name = "From Zero to Full Stack Book"
   weight = 2
-  identifier = "amp"
-  url = "/amp/"
+  identifier = "fromzerotofullstack"
+  url = "https://leanpub.com/fromzerotofullstackwithgoandreactjs"
 [[menu.main]]
-  name = "Tags"
+  name = "Jetpack"
   weight = 3
-  identifier = "tags"
-  url = "/tags/"
+  identifier = "jetpack"
+  url = "http://www.jetpack.net/"
+[[menu.main]]
+  name = "Truvu AI"
+  weight = 4
+  identifier = "truvu"
+  url = "http://truvu.ai/"
