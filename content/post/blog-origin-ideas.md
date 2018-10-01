@@ -1,5 +1,5 @@
 ---
-title: "2018 10 01 Blog Origin Ideas and About Me"
+title: "Blog Origin Ideas"
 author: "Kevin Woolery"
 cover: "/img/cover.jpg"
 tags: ["about", "background"]
